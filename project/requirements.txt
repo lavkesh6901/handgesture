@@ -1,6 +1,6 @@
 # Flask web framework
 Flask==2.3.3
-flask-cors==3.1.2
+flask-cors==1.10.3
 
 # TensorFlow for ML model
 tensorflow==2.14.0
