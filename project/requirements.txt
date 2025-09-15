@@ -1,18 +1,20 @@
 # Flask web framework
 Flask==2.3.3
-flask-cors==1.10.3
+
+# Enable Cross-Origin Resource Sharing
+Flask-CORS==3.0.10
 
 # TensorFlow for ML model
-tensorflow==2.14.0
+tensorflow==2.20.0
 
 # MediaPipe for hand landmarks
 mediapipe==0.10.2
 
-# OpenCV for image processing (headless for servers)
+# OpenCV for image processing (headless version for servers)
 opencv-python-headless==4.9.0.74
 
 # Numerical computations
 numpy==1.26.5
 
-# Production server
+# Production server for Flask
 gunicorn==23.2.0
