@@ -1,7 +1,18 @@
-flask==2.3.5
+# Flask web framework
+Flask==2.3.4
 flask-cors==3.1.2
+
+# TensorFlow for ML model
 tensorflow==2.14.0
+
+# MediaPipe for hand landmarks
 mediapipe==0.10.2
+
+# OpenCV for image processing (headless for servers)
 opencv-python-headless==4.9.0.74
+
+# Numerical computations
 numpy==1.26.5
+
+# Production server
 gunicorn==23.2.0
