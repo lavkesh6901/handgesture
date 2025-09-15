@@ -1,20 +1,7 @@
-# Flask web framework
-Flask>=2.3,<3.0
-
-# Enable Cross-Origin Resource Sharing
-Flask-CORS>=3.0,<7.0
-
-# TensorFlow for ML models
-tensorflow>=2.20,<3.0
-
-# MediaPipe for hand landmarks
-mediapipe>=0.10.13,<0.11
-
-# OpenCV headless (no GUI) to avoid server errors
+Flask
+Flask-CORS
+tensorflow
+mediapipe
 opencv-python-headless
-
-# Numerical computations
 numpy
-
-# Production server for Flask
 gunicorn
